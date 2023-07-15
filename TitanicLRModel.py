@@ -41,10 +41,10 @@ if name:
     
     age = st.number_input('Enter your age', min_value=0, max_value=100, value=25, step=1)
     
-    sib = st.number_input('Enter the number of siblings or Enter 1 if you have spouse', min_value=0, max_value=100, value=0, step=1)
+    sib = st.number_input('Enter the number of siblings /spouse accompanying you', min_value=0, max_value=100, value=0, step=1)
     
     
-    parch = st.number_input('Enter parents or childern number', min_value=0, max_value=100, value=0, step=1)
+    parch = st.number_input('Enter the number of parents/childern accompanying you', min_value=0, max_value=100, value=0, step=1)
     
     
     
